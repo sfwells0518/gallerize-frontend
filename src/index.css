@@ -1,3 +1,101 @@
-html {
-  scroll-behavior: smooth;
+#root {
+  font-family: Consolas;
+  background-image: url('./assets/papyrus.webp');
+
+}
+
+#artworks-index .card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#artworks-index .card-price {
+
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#artworks-index .card-title {
+  height: 2.5em;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#artworks-index .card-body-custom {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#artworks-index .card-text {
+  padding-top: 15px;
+  /* adjust this value as needed */
+}
+
+#artworks-index .green-button {
+  background-color: rgb(74,
+    125,
+    108);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  width: 135px;
+}
+
+#artworks-index .green-search-button {
+  background-color: rgb(74,125,108);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  width: 135px;
+}
+
+.navbar .nav-item {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-underline {
+  margin-left: -15px !important;
+}
+
+.bg-body-tertiary {
+  background-color: rgb(225,
+    213,
+    197);
+  
+}
+
+.red-search-button {
+  background-color: rgb(125,
+    74,
+    91);
+  color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    width: 135px;
+
 }
