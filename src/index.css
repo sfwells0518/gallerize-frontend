@@ -1,7 +1,15 @@
 #root {
-  font-family: Consolas;
-  background-image: url('./assets/papyrus.webp');
+  font-family: Didot;
+  background-image: url('./assets/cool-background.png');
 
+}
+
+.container-fluid {
+  margin-bottom: 0px;
+}
+
+#artworks-index h1 {
+  margin-bottom: 25px;
 }
 
 #artworks-index .card-img {
@@ -15,14 +23,14 @@
 #artworks-index .card-price {
 
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #artworks-index .card-title {
-  height: 2.5em;
+  height: 2em;
   overflow: hidden;
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 #artworks-index .card-body-custom {
@@ -30,7 +38,7 @@
   position: relative;
   width: 100%;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 12px;
   padding-top: 20px;
   display: flex;
   flex-direction: row;
@@ -38,15 +46,14 @@
   align-items: center;
 }
 
+
 #artworks-index .card-text {
   padding-top: 15px;
   /* adjust this value as needed */
 }
 
-#artworks-index .green-button {
-  background-color: rgb(74,
-    125,
-    108);
+#artworks-index .black-buy-button {
+  background-color: rgb(0, 0, 0);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -57,21 +64,15 @@
   width: 135px;
 }
 
-#artworks-index .green-search-button {
-  background-color: rgb(74,125,108);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  border-radius: 5px;
-  width: 135px;
-}
 
 .navbar .nav-item {
   padding-left: 0;
   margin-left: 0;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .nav-underline {
@@ -79,17 +80,13 @@
 }
 
 .bg-body-tertiary {
-  background-color: rgb(225,
-    213,
-    197);
+  background-color: rgb(255, 255, 255);
   
 }
 
 .red-search-button {
-  background-color: rgb(125,
-    74,
-    91);
-  color: white;
+  background-color: rgb(216, 87, 87);
+    color: white;
     border: none;
     padding: 10px 25px;
     font-size: 1em;

@@ -18,17 +18,6 @@ export function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav nav-underline">
-            <li className="nav-item">
-              <a className="nav-link text-primary" href="#">
-                <img
-                  src="https://cdn2.iconfinder.com/data/icons/4web-3/139/favourite-512.png"
-                  alt="Heart"
-                  style={{ width: "20px", marginRight: "5px" }}
-                />
-                Favorites
-              </a>
-            </li>
-
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle text-primary"
@@ -92,12 +81,12 @@ export function Header() {
             <ul className="dropdown-menu dropdown-menu-end">
               <li>
                 <a className="dropdown-item" href="#">
-                  Register
+                  Sign Up
                 </a>
               </li>
               <li>
                 <a className="dropdown-item" href="#">
-                  Sign In
+                  Log In
                 </a>
               </li>
               <li>
